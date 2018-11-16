@@ -1,0 +1,17 @@
+<App>
+	<iOS.StatusBarConfig Style="Light" />
+	<Android.StatusBarConfig Color="#022328" />
+
+	<Router ux:Name="router" />
+
+	<ClientPanel>
+		<Navigator DefaultPath="Intro">
+            <Intro ux:Template="Intro" router="router" />
+            <Main ux:Template="Main" router="router" />
+            <Bus ux:Template="Bus" router="router" />
+            <Bus2 ux:Template="Bus2" router="router" />
+            <Bus3 ux:Template="Bus3" router="router" />
+            <C2 ux:Template="C2" router="router" />
+        </Navigator>
+	</ClientPanel>
+</App>
